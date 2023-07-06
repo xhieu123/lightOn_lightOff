@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img onclick="an()" src="lightoff.png" id='bongden' style="width:500px; height: 500px">
+<script>
+    function an(){
+        if (document.getElementById('bongden').src.endsWith('lightoff.png')){
+        document.getElementById('bongden').src = 'lighton.jpg'}
+        else {document.getElementById('bongden').src = 'lightoff.png'}
+    }
+</script>
+</body>
+</html>
